@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    &:hover{
+        @extend a;
+    }
+    &:focus{
+        @extend a;
+    }
+
+}
+
+button{
+    border: none;
+    outline: none;
+    &:hover{
+        @extend button;
+    }
+}
+
+body{
+    
+}
